@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.menu {
+    list-style: none;
+    padding-left:0.5% ;
+ }
+
+  .menuLista{
+    position: relative;
+    display: inline-table ;
+  }
+
+.menuBoton{
+  background-color: #00A81C;
+  color: #000000;
+  font-size: 1.7rem;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 10%;
+}
+
+.menuBoton2{
+  background-color: #00A81C;
+  color: #000000;
+  font-size: 1.9rem;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 10%;
+}
+
+.grupoPequenoMenu{
+  background-color: #00A81C;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 10%;
+  display: none;
+  
+}
+
+.pequenoMunu{
+  font-size: 1.7rem;
+  color: #000000;
+  text-decoration: none;
+  display: block;
+}
+
+.pequenoMunu2{
+  font-size: 1.9rem;
+  color: #000000;
+  text-decoration: none;
+  display: block;
+}
+
+.menuLista:hover .grupoPequenoMenu {
+  display: block;
+}
+
+#menutraparente{
+  display: none;
+}

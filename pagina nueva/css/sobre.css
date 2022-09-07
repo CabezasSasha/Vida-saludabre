@@ -1,0 +1,39 @@
+.sobre{
+    text-align: center;
+    padding: 2.5rem;
+}
+
+.sobreTitulo{
+color:  #068d11;
+font-family: PAcifico, cursive;
+font-size: 3.2rem;
+}
+
+.sobreDescrepcion{
+    color: #ffffff;
+    font-weight: 100;
+}
+
+@media screen and (min-width: 0){
+    .sobre{
+        padding: 2.5rem 1rem;
+    }
+    .sobreTitulo{
+        font-size: 2rem;
+    }
+    .sobreDescrepcion{
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .sobre{
+        padding: 2.5rem;
+    }
+    .sobreTitulo{
+        font-size: 3.2rem;
+    }
+    .sobreDescrepcion{
+        font-size: 1.75rem;
+    }
+}

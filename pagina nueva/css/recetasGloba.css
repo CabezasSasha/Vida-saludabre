@@ -1,0 +1,66 @@
+.tituloPrimero{
+    margin: 1%;
+    text-align: center;
+    font-size: 4rem;
+    color: #6CFAD2;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.persona{
+    color: #367A3E;
+    font-weight: 1000;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+}
+
+.grupos{
+    display: flex;
+    flex-direction: inherit;  
+    width: 100%;
+}
+
+.subgrupo{
+    border:  10px solid transparent;
+    border-image:   linear-gradient(to bottom, #008080 70%,#09af8b 30%) 1; 
+    padding: 2%;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    width: 35%;
+    line-height: 4rem;
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.principalTitulo{
+    color: #9BFF5A;
+    font-size: 3rem;
+    text-align: center;
+   font-weight: bold;
+   text-decoration: underline;
+}
+
+.titulo{
+    color: #5FF57F;
+}
+
+.ocutamiento{
+    display: none;
+}
+
+.ocutamientoShow{
+    display: block;
+}
+
+.recetaBoton{
+    background-color:#00A81C;
+    border: none;
+    border-radius: 5px;  
+    padding: 1rem;
+}
+
+.textoBoton{
+    color: #000000; 
+    font-weight: bold;
+    text-decoration: none;
+}
